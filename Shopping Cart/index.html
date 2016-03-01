@@ -6,7 +6,8 @@
 		<link rel="stylesheet" href="styles/style.css">
 	</head>
 	<body>
-		<div class="header-wrapper">
+		<div class="page-container">
+			<div class="header-wrapper">
 			<h1><img src="images/logo.jpg" alt=""></h1>
 			<ul class="header-wrapper-nav">
 				<li> <a href="#!"> Women </a></li>
@@ -15,77 +16,83 @@
 				<li> <a href="#!"> Comming Soon </a></li>
 				<li> <a href="#!"> About </a></li>
 			</ul>
-			<ul class = "header-wrapper-user">
-			<!-- having different classes for the imgs as they are not equally cropped -->
-				<li><div class="header-wrapper-login"><img src="images/login_icon.jpg" alt=""></div> <a href = "#"> Login </a></li>
-				<li><div class="header-wrapper-shop"><img src="images/shop_icon.jpg" alt=""></div> <a href = "#"> Basket(0) </a> </li>
-				<li><div class="header-wrapper-search"><img src="images/search_icon.jpg" alt=""></div></li>
+			<div class="wrapper-activity">
+			<ul class="header-wrapper-activity">
+				<!-- having different classes for the imgs as they are not equally cropped -->
+				<li><a href="#">login</a></li>
+				<li><a href="#">Basket(0)</a></li>
+				<li><a href="#"></a></li>
 			</ul>
-		</div>
-	<hr/>
-	<div class="clearfix">
-	<header class="page-title">
-		<h1> Hazy Shade Of Spring </h1>
-		<h3> Quisque Lorem tortor fringilla sed, vestibulum id, eleifend justo. </h3>
-		<p> Check New Arrivals </p>
-	</header>
-	</div>
-	<main>
-		<div class="container">
-			<ul class="clearfix">
-        		<li><a href="#!"><span>Gear</span></a></li>
-        		<li><a href="#!"><span>Book Now</span></a></li>
-        		<li><a href="#!"><span>Audio</span></a></li>
-        		<li><a href="#!"><span>Video</span></a></li>
-        		<li><a href="#!"><span>Gear</span></a></li>
-        		<li><a href="#!"><span>Book Now</span></a></li>
-        		<li><a href="#!"><span>Audio</span></a></li>
-        		<li><a href="#!"><span>Video</span></a></li>
-        		<li><a href="#!"><span>Audio</span></a></li>
-        		<li><a href="#!"><span>Video</span></a></li>
-    		</ul>
-    		<div class="container__signup">
-				<h3> SIGN UP TO RECEIVE OUR UPDATES </h3>
-				<p> Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus el ultrices volutpat </p>
 			</div>
-			<form class="container__signup-submit">
-				<input class="container__signup-submitfield" type="text" name="search-email">
-				<button class ="container__signup-submitbtn" type="submit" value="submit">add</button>
-		</form>
 		</div>
-	</main>
-	<footer>
-			<div class="container-footer">
-     			<ul class="footer-navigator"> 
-     				<li><a href="#!"><span>Collection</span></a></li>
-        			<li><a href="#!"><span>Women</span></a></li>
-        			<li><a href="#!"><span>Men</span></a></li>
-        			<li><a href="#!"><span>Kids</span></a></li>
-        			<li><a href="#!"><span>Comming Soon</span></a></li>
-     			</ul>
-     			<ul class= "footer-navigator"> 
-     				<li><a href="#!"><span>Collection</span></a></li>
-        			<li><a href="#!"><span>Women</span></a></li>
-        			<li><a href="#!"><span>Men</span></a></li>
-        			<li><a href="#!"><span>Kids</span></a></li>
-        			<li><a href="#!"><span>Comming Soon</span></a></li>
-        			<li><a href="#!"><span>Kids</span></a></li>
-        			<li><a href="#!"><span>Comming Soon</span></a></li>
-     			</ul>
-     			<ul class= "footer-navigator"> 
-     				<li><a href="#!"><span>Collection</span></a></li>
-        			<li><a href="#!"><span>Women</span></a></li>
-        			<li><a href="#!"><span>Men</span></a></li>
-        			<li><a href="#!"><span>Kids</span></a></li>
-        			<li><a href="#!"><span>Comming Soon</span></a></li>
-        			<li><a href="#!"><span>Kids</span></a></li>
-     			</ul>
-     			<ul class= "footer-navigator"> 
-     				<li><a href="#!"><span>Collection</span></a></li>
-        			<li><a href="#!"><span>Women</span></a></li>
-        			<li><a href="#!"><span>Men</span></a></li>
-     			</ul>
-     		</div>
-     	</footer>
-</body>
+		<div class="clearfix">
+		<header class="page-title">
+			<h1> Hazy Shade Of Spring </h1>
+			<p> Quisque Lorem tortor fringilla sed, vestibulum id, eleifend justo. </p>
+			<a href="#"> Check New Arrivals </a>
+		</header>
+		</div>
+		<main>
+			<div class="container clearfix">
+				<ul>
+	        		<li><a href="#!"><span>Gear</span></a></li>
+	        		<li><a href="#!"><span>Book Now</span></a></li>
+	        		<li><a href="#!"><span>Audio</span></a></li>
+	        		<li><a href="#!"><span>Video</span></a></li>
+	        		<li><a href="#!"><span>Gear</span></a></li>
+	        		<li><a href="#!"><span>Book Now</span></a></li>
+	        		<li><a href="#!"><span>Audio</span></a></li>
+	        		<li><a href="#!"><span>Video</span></a></li>
+	        		<li><a href="#!"><span>Audio</span></a></li>
+	        		<li><a href="#!"><span>Video</span></a></li>
+	    		</ul>
+	    		</div>
+	    		<div class="container__signup">
+					<h3> SIGN UP TO RECEIVE OUR UPDATES </h3>
+					<p> Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus el ultrices volutpat </p>
+					<form class="container__signup-submit">
+						<input class="container__signup-submitfield" type="text" name="search-email">
+						<button class ="container__signup-submitbtn" type="submit" value="">add</button>
+					</form>
+				</div>
+		</main>
+			<footer>
+					<div class="container-footer clearfix">
+			     			<ul class="footer-navigator"> 
+			     				<li><a href="#!"><span>Collection</span></a></li>
+			        			<li><a href="#!"><span>Women(1725)</span></a></li>
+			        			<li><a href="#!"><span>Men(635)</span></a></li>
+			        			<li><a href="#!"><span>Kids(2514)</span></a></li>
+			        			<li><a href="#!"><span>Comming Soon(76)</span></a></li>
+			     			</ul>
+			     			<ul class= "footer-navigator"> 
+			     				<li><a href="#!"><span>Site</span></a></li>
+			     				<li><a href="#!"><span>Terms of Service</span></a></li>
+			        			<li><a href="#!"><span>Privacy Policy</span></a></li>
+			        			<li><a href="#!"><span>Copyright Policy</span></a></li>
+			        			<li><a href="#!"><span>Press Kit</span></a></li>
+			        			<li><a href="#!"><span>Support</span></a></li>
+			     			</ul>
+			     			<ul class= "footer-navigator"> 
+			     				<li><a href="#!"><span>Shop</span></a></li>
+			        			<li><a href="#!"><span>About us</span></a></li>
+			        			<li><a href="#!"><span>Shipping Methods</span></a></li>
+			        			<li><a href="#!"><span>Career</span></a></li>
+			        			<li><a href="#!"><span>Contact</span></a></li>
+			     			</ul>
+			     			<ul class= "footer-navigator"> 
+			     				<li><a href="#!"><span>Social</span></a></li>
+			        			<li><a href="#!"><span>Shoper is made with love in Warsaw.</span></a></li>
+			        			<li><a href="#!"><span>2014 &copy; All rights reserved. ELPassion</span></a></li>
+			        			<li><ul class="footer-socialmedia">
+			        					<li><a href="#!"></a></li>
+			        					<li><a href="#!"></a></li>
+			        					<li><a href="#!"></a></li>
+			        				</ul>
+			        			</li>
+			     			</ul>
+			     		</div>
+			     	</footer>
+			     </div>
+	</body>
 </html>
