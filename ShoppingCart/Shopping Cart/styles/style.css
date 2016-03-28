@@ -466,3 +466,15 @@ padding-bottom: 10px;
 .wrapper-bought-product{
   border-bottom: 1px solid #e5e5e5;
 }
+.wrapper_subtotal{
+  background-color: #eaeaea;
+  height: 50px;
+  margin-top: 5px;
+}
+.wrapper_subtotal p:nth-child(2) {
+  color: #e67429;
+}
+.wrapper_subtotal p {
+  float: right;
+  padding-right: 3px;
+}
