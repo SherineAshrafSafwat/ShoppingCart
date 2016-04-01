@@ -512,3 +512,17 @@ padding-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
 }
+.shipping_form{
+  width: 714px;
+  margin: 50px auto 0 auto;
+}
+.shipping_form p{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.delivery_select{
+  border: 1px solid #e5e5e5;
+  line-height: 40px;
+  padding-left: 20px;
+  background: #fff url(../images/down_arrow.png) 99% 50% no-repeat;
+}
